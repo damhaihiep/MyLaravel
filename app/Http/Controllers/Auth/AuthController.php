@@ -10,7 +10,5 @@ class AuthController extends Controller
     public function getProfile(){
         return view('auth.profile.profile');
     }
-    public function setUser(){
-        
-    }
+
 }
